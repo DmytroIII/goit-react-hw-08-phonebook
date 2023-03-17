@@ -43,43 +43,9 @@ const authSlice = createSlice({
           state.user = action.payload;
           state.isLoggedIn = true;          
           state.isRefreshing = false;
-          // toast.success('Wellcome back!')
+  
         })
-        // .addCase(refreshUser.pending, (state, action) => {
-        //   state.isRefreshing = false;
-        // })        
+        
   })
 
 export const authReducer = authSlice.reducer;
-
-// ---either---
-// extraReducers: {
-//   [register.fulfilled](state, action) {
-//     state.user = action.payload.user;
-//     state.token = action.payload.token;
-//     state.isLoggedIn = true;
-//     // toast.success('Your account was successfully created');
-//   },
-//   [register.rejected]() {
-//     // toast.error('User creation error. Try again with another email address');
-//   },
-//   [logIn.fulfilled](state, action) {
-//     state.user = action.payload.user;
-//     state.token = action.payload.token;
-//     state.isLoggedIn = true;
-//     // toast.success(`Welcome ${action.payload.user.name}`);
-//   },
-//   [logIn.rejected]() {
-//     // toast.error('Incorrect email or password! Please try again');
-//   },
-//   [logOut.fulfilled](state) {
-//     state.user = { name: null, email: null };
-//     state.token = null;
-//     state.isLoggedIn = false;
-//     // toast.success('Goodbye')
-//   },
-//   [refreshUser.fulfilled](state, action) {
-//     state.user = action.payload;
-//     state.isLoggedIn = true;
-//   },
-// }

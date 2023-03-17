@@ -7,5 +7,5 @@ export const BottomText = styled.p`
 `;
 
 export const StyledLink = styled(Link)`
-  color: #1976d2;
+  color: #4aea37;
 `;

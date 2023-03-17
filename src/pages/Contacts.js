@@ -14,7 +14,6 @@ import { Container } from '@mui/system';
 export default function Contacts() {
   const dispatch = useDispatch();
   const isLoading = useSelector(selectLoading);
-  // console.log(isLoading);
 
   useEffect(() => {
     dispatch(fetchContacts());

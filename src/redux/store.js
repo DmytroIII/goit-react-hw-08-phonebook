@@ -15,7 +15,6 @@ import { filterReducer } from './contacts/filterSlice';
 import { contactsReducer } from './contacts/slice';
 
 
-// Persisting token field from auth slice to localstorage
 const authPersistConfig = {
   key: 'auth',
   storage,
@@ -34,7 +33,6 @@ export const store = configureStore({
       ignoreActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
     },
   }),
-  // devTools: process.env.NODE_ENV === 'development',
 });
 
 export const persistor = persistStore(store);

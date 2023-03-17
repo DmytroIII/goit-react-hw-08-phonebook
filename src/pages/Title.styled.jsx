@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import image from '../images/background.jpg'
 
 export const Title = styled.h1`
   font-family: 'Handlee', cursive;
@@ -33,7 +32,6 @@ export const Main = styled.main`
   align-items: center;
   padding-top: 54px;  
 `
-/* background-image: url('${image }'); */
 
 export const HeroSection = styled.section`
   margin-top: 60px;

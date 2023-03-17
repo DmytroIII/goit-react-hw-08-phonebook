@@ -1,7 +1,9 @@
+
+
 import Particles from 'react-particles';
 import { loadFull } from 'tsparticles';
 import { useCallback } from 'react';
-import phonebookBg from '../../images/phonebook-bg3.jpg';
+import phonebookBg from '../../images/phonebook-matrix.jpg';
 
 const TsparticlesLayout = () => {
   const particlesInit = useCallback(async engine => {

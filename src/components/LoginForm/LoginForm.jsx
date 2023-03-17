@@ -45,18 +45,6 @@ export default function LoginForm() {
     };
   }
 
-  //   ---  or ---
-  // const handleChange = ({ target: { name, value } }) => {
-  //   switch (name) {
-  //     case 'email':
-  //       return setEmail(value);
-  //     case 'password':
-  //       return setPassword(value);
-  //     default:
-  //       return;
-  //   }
-  // };
-
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -74,8 +62,6 @@ export default function LoginForm() {
         password: password, 
     }));
     
-    // setEmail('');
-    // setPassword('');
   };
 
   return (
