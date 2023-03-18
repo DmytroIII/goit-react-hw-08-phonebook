@@ -20,7 +20,7 @@ export const Item = styled.li`
     } */
     :hover > div {
       transition: background-color 250ms linear, color 250ms linear;
-      background-color: #0f7ec9;
+      background-color: #e74c3c;
       color: #fafafa;
     }
   }
@@ -33,10 +33,6 @@ export const DeleteContact = styled.button`
   background: transparent;
   border: none;
   cursor: pointer;  
-  /* :hover {
-    transition: color 150ms linear;
-    color: tomato;
-  } */
   :hover > svg {
     transition: color 150ms linear;
     color: tomato;
@@ -48,13 +44,7 @@ margin-top: 3px;
 width: 30px;
 height: 30px;
 border-radius: 50%;
-background-color: #1cb6cd;
-/* #83cdff; */
- /* rgba(179, 255, 252, 0.952); */
-/* #8cfcd1; */
- /* rgba(136, 252, 248, 0.952); */
-/* rgb(100, 237, 207); */
- /* #E6E6E6; */
+background-color: #e74c3c;
 justify-content: center;
 align-items: center;
 display: flex;
